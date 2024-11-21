@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros</title>
+    <link rel="stylesheet" href="../css/cabecera.css">
+    <link rel="stylesheet" href="../css/stylecontactos.css">
+</head>
+<body>
+    <header>
+        <h2 class="titulo">Make up</h2>
+        <nav class="navigation">
+            <a href="../index.html">Inicio</a>
+            <a href="../pages/nosotros.html">Nosotros</a>
+            <a href="../pages/ventas.html">Producto</a>
+            <a href="../pages/contactos.html">Contactos</a>
+            <button class="btnLogin">Sesion</button>
+            
+    
+        </nav>
+    </header>
+    <a href="https://wa.me/72052161?text=¡Hola!%20comunicate%20con%20ANG%20Turismo%20en%20Alaska." class="whatsapp-link" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Logo-WhatsApp.png" alt="WhatsApp">
+
+        <a href="mailto:tuemail@dominio.com?subject=Consulta%20sobre%20tu%20servicio&body=¡Hola!%20Tengo%20una%20consulta%20sobre%20tu%20servicio." class="email-link">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Email_icon.png" alt="Email">
+        </a>
+    </a>
+
+
+
+    <div class="container">
+        <h1>Contactanos</h1>
+        <form id="contact-form">
+            <div class="form-group">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" placeholder="Ingresa tu nombre" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Registrame:</label>
+                <textarea id="message" name="message" placeholder="Escribe tu mensaje" required></textarea>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="response-message"></div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
